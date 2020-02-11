@@ -1,0 +1,142 @@
+body
+{
+		background: radial-gradient(circle at center, #ffffff, #cccccc);
+		 padding-top: 70px; 
+}
+
+*
+{
+
+}
+span
+{
+		transition:all 0.5s ease 0s;
+-moz-transition:all 0.5s ease 0s;
+-webkit-transition:all 0.5s ease 0s;
+-ms-transition:all 0.5s ease 0s;
+-o-transition-duration:all 0.5s ease 0s;
+}
+button
+{
+		transition:all 0.5s ease 0s;
+-moz-transition:all 0.5s ease 0s;
+-webkit-transition:all 0.5s ease 0s;
+-ms-transition:all 0.5s ease 0s;
+-o-transition-duration:all 0.5s ease 0s;
+}
+a
+{
+	transition:all 0.5s ease 0s;
+-moz-transition:all 0.5s ease 0s;
+-webkit-transition:all 0.5s ease 0s;
+-ms-transition:all 0.5s ease 0s;
+-o-transition-duration:all 0.5s ease 0s;
+}
+#video_continer a
+{
+	
+	
+ /*transition:all 0.5s ease 0s;
+-moz-transition:all 0.5s ease 0s;
+-webkit-transition:all 0.5s ease 0s;
+-o-transition-duration:all 0.5s ease 0s;*/
+
+  color: #000000;
+  font-size: 24px;
+  font-weight: 900;
+      text-shadow: 0 0 2px  #000000,
+               /*0 0 4px  #111111,*/
+               0 0 6px  #222222,
+               0 0 8px  #eeeeee,
+               0 0 10px  #ffffff;
+}
+#video_continer a:hover,#video_continer a:focus
+{
+	  text-decoration: none;
+	  color: #FFFFFF;
+	  text-shadow: 0 0 2px  #fff,
+               0 0 4px  #eeeeee,
+               0 0 6px  #dddddd,
+               0 0 8px  #333333,
+               0 0 10px  #222222,
+               0 0 12px  #111111,
+               0 0 14px #000000;
+}
+
+
+
+#img_area
+{
+	width: 140px;
+	height: 140px;
+	  margin-left: 23px;
+}
+#img_input
+{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  opacity: 0;
+  top: 0px;
+  margin-left: 23px;
+  cursor: pointer;
+}
+#img_input_h
+{
+	  position: relative;
+  padding: 0px;
+}
+#img_input_h > p
+{
+	  margin: 5px 10px 5px 10px;
+}
+.video
+{
+	/*max-width: 360px;*/
+	cursor: pointer;
+}
+
+.video_img
+{
+	width: 100%;
+}
+.vidoe_title
+{
+}
+.glyphicon.my
+{
+  position: relative;
+  left: 35px;
+  top: -28px;
+  height: 0px;
+  width: 0px;
+  display: block;
+    color: gray;
+}
+#link
+{
+	/*padding-right: 40px;*/
+}
+#link_help_icon
+{
+  /* height: 40px; */
+  /* width: 40px; */
+  /* left: 0; */
+  /* top: 0; */
+  cursor: pointer;
+  /* text-align: left; */
+  /* line-height: 3; */
+  left: 87%;
+}
+#exchangeModal
+{
+	margin-top: 60px;
+}
+#video_continer
+{
+	text-align: initial;
+}
+.continer
+{
+	text-align: right;
+}
