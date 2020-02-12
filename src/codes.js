@@ -56,10 +56,6 @@ export default [
                             ...a,
                             'b',
                         ]
-
-
-
-
                         //执行后显示arr值
                     }
                     `,
