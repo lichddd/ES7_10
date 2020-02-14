@@ -80,6 +80,27 @@ export default [
                     }
                 },
             },
+
+            {
+                label:'直接显示emoji',
+                code:{
+                    text:
+                    `function foo(height=50, color='red'){
+                        //执行后显示参数值
+                    }
+                    😆  😺   👨    👿   
+                    `,
+                    params:
+                    [
+                        {key:'color',value:'red'},
+                        {key:'height',value:''},
+                    ],
+                    func:(result,{color='red',height=50})=>{
+                        
+                        result.text=`height:${height},color:${color}`;
+                    }
+                },
+            },
         ],
     },
     {
@@ -187,3 +208,4 @@ export default [
         ],
     }
 ]
+
