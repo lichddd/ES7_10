@@ -88,7 +88,7 @@ body {
 }
 .code{
   padding: 10px;
-    white-space: pre-line;
+    white-space: pre-wrap;
     border-left: solid 1px #aaaaaa;
     border-right: solid 1px #aaaaaa;
     left:33%;
